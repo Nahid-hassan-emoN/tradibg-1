@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+    <title>Log-in</title>
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+
+        <div class="title-text">
+            <img src="../images/User_icone.png" alt="">
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <label class="label-text" for="email"> Email</label>
+
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="label-text" for="password"> Password</label>
+
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="pass-link"><a href="#">Forgot password?</a></div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+                </form>
+
+
+                <form action="#" class="signup">
+                    <div class="field">
+                        <label class="label-text" for="email"> Email</label>
+
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="label-text" for="password">Create Password</label>
+
+                        <input type="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="label-text" for="confirm-password">Confirm Password</label>
+
+
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="label-text" for="confirm-password">Referral Code</label>
+
+
+                        <input type="text" placeholder="Referral Code" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="label-text" for="confirm-password">Captcha Code</label>
+
+                        <input type="text" placeholder="Captcha Code" required>
+
+                        <div class="captcha-code">
+                            <h6>
+                                12345
+                            </h6>
+
+                        </div>
+                    </div>
+                    <!-- /// -->
+
+
+                    <div class="d-flex align-items-center terms-con">
+
+                        <label>
+                             <input type="checkbox" />   
+                            <span class="caption">Creating an account means you're
+                              okay with our <a href="#">Terms and Conditions</a> and our <a href="#">Privacy Policy</a>.</span>
+                            
+                            <div class="control__indicator"></div>
+        
+                            
+                            
+                          </label>
+                    </div>
+                    <!-- // -->
+
+
+                    <!-- // -->
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="login.js"></script>
+</body>
+
+</html>
